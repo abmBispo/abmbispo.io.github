@@ -49,17 +49,6 @@ a:hover, a:visited, a:active, a:link{
 	text-decoration:none;
 }
 
-/***************************************************************/
-/*Definição das características das divs que serão os jogadores*/
-/***************************************************************/
-#team_member{
-	border-radius:100%;
-	transition: 0.5s;
-}
-
-#team_member:hover{
-	border-radius:10%;
-}
 /***********************************/
 /*Definição para a legenda das ftos*/
 /***********************************/
@@ -70,7 +59,6 @@ a:hover, a:visited, a:active, a:link{
 	font-size:14px;
 	color:#666;
 }
-
 /***********************************/
 /***********************************/
 /***********************************/
