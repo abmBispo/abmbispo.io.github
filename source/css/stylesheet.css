@@ -140,23 +140,15 @@ a:hover, a:visited, a:active, a:link{
 		width:860px;
 		height:615px;
 	}
-	.panel{width:1170px}
-	
+	.panel{
+		width:1170px;
+	}
+
 	#myImgCarousel{
 		border-radius:5px;
 		height:400px;
 		width:400px;
-<<<<<<< HEAD:css/stylesheet.css
-		}
-		
-	#myImgCarousel2{
-		border-radius:5px;
-		height:600px;
-		width:400px;
-		}		
-=======
 	}
->>>>>>> 740abecc92270f095edae7d4182702300d274c46:source/css/stylesheet.css
 	#myCarousel{
 		max-height:500px;
 		max-width:500px;
