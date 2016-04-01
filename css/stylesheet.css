@@ -141,12 +141,18 @@ a:hover, a:visited, a:active, a:link{
 		height:615px;
 		}
 	.panel{width:1170px}
-	/*
+	
 	#myImgCarousel{
 		border-radius:5px;
 		height:400px;
 		width:400px;
 		}
+		
+	#myImgCarousel2{
+		border-radius:5px;
+		height:600px;
+		width:400px;
+		}		
 	#myCarousel{
 		max-height:500px;
 		max-width:500px;
@@ -159,4 +165,4 @@ a:hover, a:visited, a:active, a:link{
 		max-height:500px;
 		max-width:500px;
 		}	
-	*/}
+	}
