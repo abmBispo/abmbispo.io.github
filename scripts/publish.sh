@@ -5,7 +5,7 @@ echo "Construindo página..."
 command -v npm >/dev/null 2>&1 || { echo "Requer npm porém não foi encontrada nenhuma instalação em seu PATH" >&2; exit 1; }
 echo "...Encontrada instalação do npm"
 
-npm list --global html-minifier > /dev/null 2>&1 || { echo "Requer html-minifier. Execute \"sudo npm install html-minifier -g\"" >&2; exit 1; }
+npm list --global html-minifier > /dev/null 2>&1 || { echo "Requer html-minifier. Execute \"npm install html-minifier -g\"" >&2; exit 1; }
 echo "...Encontrada instalação do html-minifier"
 
 
