@@ -34,23 +34,66 @@ body{
 }
 #title{
 	color: #FFF;
-	background: #371A22;
+	background: #667f78;
 	text-align:center;
 	margin-top:0px;
 	margin-bottom: 0px;
 	padding-top:120px;
 }
+.subtitulos>h1,.subtitulos>h2,.subtitulos>h3,.subtitulos>h4,.subtitulos>h5,.subtitulos>h6,.Ssubtitulos>h1,.Ssubtitulos>h2,.Ssubtitulos>h3,.Ssubtitulos>h4,.Ssubtitulos>h5,.Ssubtitulos>h6{
+	font-weight:bolder;
+}
+.Ssubtitulos>h1,.Ssubtitulos>h2,.Ssubtitulos>h3,.Ssubtitulos>h4,.Ssubtitulos>h5,.Ssubtitulos>h6{
+	background-color:#132921;
+	color:#FFF;
+
+	padding-top:30px;
+	margin-top:-40px;
+
+	padding-bottom: 40px;
+	margin-bottom: -30px;
+
+
+	margin-left:-10px;
+	padding-left:10px;
+
+	margin-right:-10px;
+	padding-right:10px;
+
+	border-radius:5px;
+}
+
+h1>small,h2>small,h3>small,h4>small,h5>small,h6>small{
+	color:#d9d9d9;
+	font-weight: bold;
+}
+.subtitulos{
+	 background-color:#009973;
+	 color:#FFF;
+	 padding-top:10px;
+	 margin-top:0px;
+	 border-radius:5px;
+	 margin-left:-10px;
+	 margin-right:-10px;
+	 padding-left:10px;
+	 padding-right:10px;
+}
+
 #conteudo{
 	background: #d9d9d9;
 }
+#rodape{
+	background-color: #3D271D;
+	}
 h1.coments{
 	font-size: 20px;
 	line-height: 20px;
+	color:  #FFF;
 }
 p.coments{
-	font-family: sans-serif;
+	font-family: arial;
 	max-width:90%;
-	color:  #595959;
+	color:  #FFF;
 	margin: auto;
 	font-size:13px;
 	font-weight: lighter;
