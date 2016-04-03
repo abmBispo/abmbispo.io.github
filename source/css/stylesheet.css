@@ -137,16 +137,12 @@ a:hover, a:visited, a:active, a:link{
 		width:200px;
 	}
 	#myCarousel{
-		height:200px;
-		width:200px;
+		height:300px;
+		width:400px;
 	}
 	#myCarousel2{
 		height:250px;
 		width:250px;
-	}
-	#myCarousel3{
-		height:200px;
-		width:200px;
 	}
 }
 @media (max-width:992px) and (min-width: 768px){
