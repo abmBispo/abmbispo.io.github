@@ -22,17 +22,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" id="itemNavBar" href="index.html">abmBispo</a>
+        <a class="navbar-brand" id="itemNavBar" href="index.html" style="padding-left:200px;">abmBispo</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
+          <li class="itemSel"><a href="index.html" id="itemNavBar">Home</a></li>
           <li class="ativo"><a id="itemNavBar" href="projetos.html">Projetos acadêmicos<span class="sr-only">(current)</span></a></li>
           <li class="itemSel"><a id="itemNavBar" href="formacao.html">Formação acadêmica<span class="sr-only">(current)</span></a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="itemSel"><a href="index.html" id="itemNavBar">Home</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -50,8 +48,8 @@
               <h1>Projetos<br><small>O que já fiz</small></h1>
             </div>
           </center>
-          <div class="page-header">
-            <h3>Seguidor de linha<br>&nbsp&nbsp&nbsp&nbsp <small>Projeto final de OCS - LAB</small></h3>
+          <div class="page-header" style="background-color:#009973; color:#FFF; padding-top:10px; margin-top:0px; border-radius:5px; margin-left:-10px; margin-right:-10px; padding-left:10px; padding-right:10px;">
+            <h3>Seguidor de linha<br>&nbsp&nbsp&nbsp&nbsp <small style="color:#d9d9d9">Projeto final de OCS - LAB</small></h3>
           </div>
           <p class="paragraf">O projeto final de robótica foi feito para o terceiro trimestre de OCS. O robô empreendido foi um seguidor
             de linha nos moldes do CoRA. Foi usado o microcontrolador do Arduino UNO, um chassis impresso na impressora 3D e uma placa de circuito
@@ -105,55 +103,53 @@
                   </div>
                 </center>
                 <center><p class="legenda">Fotos do projeto AVC</p>
+                          <!-- Trigger the modal with a button -->
+                          <button type="button" class="btn btn-primary btn-sd" data-toggle="modal" data-target="#myModal"><i class="fa fa-expand fa-lg"></i></button>
 
+                          <!-- Modal -->
+                          <div id="myModal" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-lg">
 
-                                        <!-- Trigger the modal with a button -->
-                                        <button type="button" class="btn btn-primary btn-sd" data-toggle="modal" data-target="#myModal"><i class="fa fa-expand fa-lg"></i></button>
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header" style="background-color:#009973; color:#FFF;">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h3 class="modal-title">Fotos do projeto Seguidor de Linha</h3>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="page-header">
+                                    <h4>Esquema da PCB</h4>
+                                  </div>
+                                  <p class="paragraf">Aqui temos o esquema da Placa de Circuito Impresso (PCI ou, em inglês, Printed Circuit Board, PCB) usada para ligar e alimentar os dispositivos eletrônicos.</p><br>
+                                  <center><img src="fotos/circuito.PNG" class="img-responsive"alt="Circuito Impresso"></center>
+                                  <p class="legenda">Esquema PCB</p>
 
-                                        <!-- Modal -->
-                                        <div id="myModal" class="modal fade" role="dialog">
-                                          <div class="modal-dialog modal-lg">
+                                  <div class="page-header">
+                                    <h4>Chassi principal</h4>
+                                  </div>
+                                  <p class="paragraf">Abaixo segue a foto do chassi principal do robô seguidor de linha. O chassi foi desenvolvido no programa para desing 3D do google, o Google SketchUp. No foto há o chassi principal e duas hastes para o apoio do suporte do Arduino UNO usado no projeto. </p>
+                                  <center><img src="fotos/chassis_principal.JPG" class="img-responsive" alt="Chassis principal"></center>
 
-                                            <!-- Modal content-->
-                                            <div class="modal-content">
-                                              <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                <h3 class="modal-title">Fotos do projeto Seguidor de Linha</h3>
-                                              </div>
-                                              <div class="modal-body">
-                                                <div class="page-header">
-                                                  <h4>Esquema da PCB</h4>
-                                                </div>
-                                                <p class="paragraf">Aqui temos o esquema da Placa de Circuito Impresso (PCI ou, em inglês, Printed Circuit Board, PCB) usada para ligar e alimentar os dispositivos eletrônicos.</p><br>
-                                                <center><img src="fotos/circuito.PNG" class="img-responsive"alt="Circuito Impresso"></center>
-                                                <p class="legenda">Esquema PCB</p>
+                                  <div class="page-header">
+                                    <h4>Eixo das rodas</h4>
+                                  </div>
+                                  <p class="paragraf">Este sem dúvida foi o mais trabalhoso de ser desenvolvido, tendo em vista que o encaixe do pinhão do motor não se agastava bem ao encaixe da roda. Dessa forma, um dos maiores problemas das primeiras tentativas foi que o robô sempre perdia suas rodas, que se soltavam facilmente.</p>
+                                  <center><img src="fotos/eixo_roda.JPG" class="img-responsive" alt="Eixo de acoplamento da roda"></center>
 
-                                                <div class="page-header">
-                                                  <h4>Chassi principal</h4>
-                                                </div>
-                                                <p class="paragraf">Abaixo segue a foto do chassi principal do robô seguidor de linha. O chassi foi desenvolvido no programa para desing 3D do google, o Google SketchUp. No foto há o chassi principal e duas hastes para o apoio do suporte do Arduino UNO usado no projeto. </p>
-                                                <center><img src="fotos/chassis_principal.JPG" class="img-responsive" alt="Chassis principal"></center>
+                                  <div class="page-header">
+                                    <h4>Apoio para o Arduino</h4>
+                                  </div>
+                                  <p class="paragraf">Suporte para o arduino. Quando ligado em sua base com as hastes de apoio do chassi principal, ele funciona quase como que um "segundo andar" para o robô.</p>
+                                  <center><img src="fotos/suporte.JPG" class="img-responsive" alt="Suporte para o arduino"></center>
 
-                                                <div class="page-header">
-                                                  <h4>Eixo das rodas</h4>
-                                                </div>
-                                                <p class="paragraf">Este sem dúvida foi o mais trabalhoso de ser desenvolvido, tendo em vista que o encaixe do pinhão do motor não se agastava bem ao encaixe da roda. Dessa forma, um dos maiores problemas das primeiras tentativas foi que o robô sempre perdia suas rodas, que se soltavam facilmente.</p>
-                                                <center><img src="fotos/eixo_roda.JPG" class="img-responsive" alt="Eixo de acoplamento da roda"></center>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger btn-sd" data-dismiss="modal">Fechar</button>
+                                </div>
+                              </div>
 
-                                                <div class="page-header">
-                                                  <h4>Apoio para o Arduino</h4>
-                                                </div>
-                                                <p class="paragraf">Suporte para o arduino. Quando ligado em sua base com as hastes de apoio do chassi principal, ele funciona quase como que um "segundo andar" para o robô.</p>
-                                                <center><img src="fotos/suporte.JPG" class="img-responsive" alt="Suporte para o arduino"></center>
-
-                                              </div>
-                                              <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger btn-sd" data-dismiss="modal">Fechar</button>
-                                              </div>
-                                            </div>
-
-                                          </div>
-                                        </div>
+                            </div>
+                          </div>
                           <br/><br/>
                 </center>
 
