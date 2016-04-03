@@ -131,6 +131,11 @@ a:hover, a:visited, a:active, a:link{
 		max-height:200px;
 		width:200px;
 	}
+	#myImgCarousel2{
+		border-radius:5px;
+		height:200px;
+		width:200px;
+	}
 	#myCarousel{
 		height:200px;
 		width:200px;
@@ -157,24 +162,25 @@ a:hover, a:visited, a:active, a:link{
 		height:400px;
 		width:400px;
 	}
+	#myImgCarousel2{
+		border-radius:5px;
+		height:350px;
+		width:600px;
+	}
 	#myCarousel{
 		max-height:500px;
-		max-width:500px;
-	}
-	#myCarousel2{
-		max-height:600px;
 		max-width:600px;
 	}
-	#myCarousel3{
-		max-height:500px;
-		max-width:500px;
+	#myCarousel2{
+		max-height:350px;
+		max-width:700px;
 	}
 }
 
 @media (min-width:992px) and (max-width:1900px){
 	.MyIframe{
-		width:860px;
-		height:615px;
+		width:930px;
+		height:550px;
 	}
 	.panel{
 		width:1170px;
@@ -187,19 +193,15 @@ a:hover, a:visited, a:active, a:link{
 	}
 	#myImgCarousel2{
 		border-radius:5px;
-		height:400px;
-		width:400px;
+		height:350px;
+		width:600px;
 	}
 	#myCarousel{
 		max-height:500px;
-		max-width:500px;
-	}
-	#myCarousel2{
-		max-height:600px;
 		max-width:600px;
 	}
-	#myCarousel3{
-		max-height:500px;
-		max-width:500px;
+	#myCarousel2{
+		max-height:350px;
+		max-width:700px;
 	}
 }
