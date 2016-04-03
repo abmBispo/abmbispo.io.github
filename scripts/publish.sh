@@ -8,6 +8,8 @@ echo "...Encontrada instalação do npm"
 npm list --global html-minifier > /dev/null 2>&1 || { echo "Requer html-minifier. Execute \"npm install html-minifier -g\"" >&2; exit 1; }
 echo "...Encontrada instalação do html-minifier"
 
+DIR="$(dirname "$(readlink -f "$0")")"
+cd $DIR
 
 echo "\n~ATENÇÃO, usando estas configs:"
 cat minifier.json
