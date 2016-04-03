@@ -4,7 +4,6 @@
   "removeAttributeQuotes": true,
   "removeRedundantAttributes": true,
   "useShortDoctype": true,
-  "removeEmptyElements": true,
   "lint": true,
   "caseSensitive": true,
   "minifyCSS": true,
