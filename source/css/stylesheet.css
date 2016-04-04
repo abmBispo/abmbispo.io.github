@@ -159,7 +159,6 @@ a:hover, a:visited, a:active, a:link{
 /***********************************/
 /***********************************/
 
-
 .panel{
 	padding-right:15px;
 	padding-left:15px;
@@ -168,7 +167,13 @@ a:hover, a:visited, a:active, a:link{
 }
 
 @media (max-width:768px) and (min-width:200px){
-  #itemNavBarTit{
+	#tabelaEscolas{
+		display: none;
+		}
+	#blocosEscola{
+		display: auto;
+		}
+	#itemNavBarTit{
 			padding-left: 15px;
 	}
   .MyIframe{
@@ -199,6 +204,12 @@ a:hover, a:visited, a:active, a:link{
 	}
 }
 @media (max-width:992px) and (min-width: 768px){
+  #tabelaEscolas{
+		display: auto;
+		}
+	#blocosEscola{
+		display: none;
+		}
 	.MyIframe{
 		width:600px;
 		height:315px;
@@ -226,7 +237,13 @@ a:hover, a:visited, a:active, a:link{
 	}
 }
 
-@media (min-width:992px) and (max-width:1900px){
+@media (min-width:992px) and (max-width:2900px){
+	#tabelaEscolas{
+		display: auto;
+		}
+	#blocosEscola{
+		display: none;
+		}
 	.MyIframe{
 		width:930px;
 		height:550px;
