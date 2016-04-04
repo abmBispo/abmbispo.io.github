@@ -169,7 +169,7 @@ a:hover, a:visited, a:active, a:link{
 
 @media (max-width:768px) and (min-width:200px){
   #itemNavBarTit{
-			padding-left: 30px;
+			padding-left: 15px;
 	}
   .MyIframe{
 		max-width:100%;
@@ -190,8 +190,8 @@ a:hover, a:visited, a:active, a:link{
 		width:200px;
 	}
 	#myCarousel{
-		height:300px;
-		width:400px;
+		height:200px;
+		width:300px;
 	}
 	#myCarousel2{
 		height:250px;
