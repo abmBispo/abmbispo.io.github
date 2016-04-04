@@ -166,6 +166,33 @@ a:hover, a:visited, a:active, a:link{
 	margin-left:auto;
 }
 
+.blocos{
+		color: #FFF;
+		border-radius: 5px;
+}
+.blocos>h1{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+}
+.blocos>ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+#bloco1{
+	background-color: #371A22;
+}
+#bloco2{
+	background-color: #AA5069;
+}
+#bloco3{
+	background-color: #6A3242;
+}
+#bloco4{
+	background-color: #EA6F91;
+}
+
+
 @media (max-width:768px) and (min-width:200px){
 	#tabelaEscolas{
 		display: none;
