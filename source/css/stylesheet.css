@@ -12,7 +12,7 @@ body{
 #itemNavBarTit{
 	color: #FFF;
 	font-weight:bolder;
-	padding-left: 180px;
+	margin: auto;
 }
 .ativo{
 	background:#009973;
@@ -265,6 +265,9 @@ a:hover, a:visited, a:active, a:link{
 }
 
 @media (min-width:992px) and (max-width:2900px){
+	.salto{
+		content:"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+	}
 	#tabelaEscolas{
 		display: auto;
 		}
