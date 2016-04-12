@@ -1,88 +1,166 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="shortcut icon" href="fotos/favicon.ico" type="image/x-icon" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href="css/stylesheet.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap-theme.css">
-  <title>Home | Alan Borges</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse" id="NavBar">
-    <div class="container-fluid">
-      <!-- Aqui a nav bar recebe um toque especial para dispositivos móveis -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a id="itemNavBarTit" class="navbar-brand" href="index.html"><i class="fa fa-git fa-lg"></i> <i class="fa fa-github fa-lg"></i>   abmBispo</a>
-      </div>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="ativo"><a href="index.html" id="itemNavBar">Home</a></li>
-          <li class="itemSel"><a id="itemNavBar" href="projetos.html">Projetos acadêmicos<span class="sr-only">(current)</span></a></li>
-          <li class="itemSel"><a id="itemNavBar" href="formacao.html">Formação acadêmica<span class="sr-only">(current)</span></a></li>
-          <li class="itemSel"><a id="itemNavBar" href="https://plus.google.com/u/0/103422875897111377590" target="_blank"><i class="fa fa-google-plus-square fa-lg"></i><span class="sr-only">(current)</span></a>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-  <div class="container">
-    <div class="jumbotron" id="title">
-      <h1>Curriculum Vitae</h1>
-      <p>Sobre mim</p>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-    <div class="row">
-      <div class="col-md-12 col-xs-12">
-        <div class="well" id="conteudo">
-          <center>
-            <div class="page-header Ssubtitulos">
-              <h1>Sobre mim</h1>
-            </div>
-          </center>
-          <div class="page-header subtitulos">
-            <h3>Resumo das competências<br>&nbsp&nbsp&nbsp&nbsp <small>Quem sou eu</small></h3>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
           </div>
-          <p class="paragraf">Ótimo com relacionamento interpessoal, tenho interesse em diversas áreas do conhecimento humano. Talvez por isso
-            eu seja tão curioso e esforçado em entender cada vez mais sobre tecnologia e as ligações que esta tem com ramos diversos da filosofia.</p><p class="paragraf">
-            Deidicado ao trabalho em equipe, tendo a experiência de um ano e três meses no grêmio estudantil e desenvolvimento de pesquisas acadêmicas em
-            robótica e circuitos embarcados. Habilidade com a construção e organização de redes computacionais e soluções para compartilhamento de
-            arquivos de forma segura e eficiente.</p><p class="paragraf">Amplo conhecimento de assistência a equipamentos eletrônicos de escritório e computadores.
-            Versatilidade inata em relação a linguagens de programação variadas, como C, Java e liguagens para design de aplicações WEB.<br><br>
-            <img src="fotos/perfil.jpg" class="img-responsive" /></p>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container-fluid" id="rodape">
-      <br/><br/><br/>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-xs-12">
-            <h1 class="coments">Políticas</h1>
-            <p class="coments">Este site tem como único intuito a divulgação das minha habilidades pessoais e profissionais. Todo o conteudo disponibilizado nesse site é fruto de pesquisas ou comentários de experiências técnicas. de âmbito acadêmico Peço desculpas a quem se ofendeu com algum conteúdo ou comentário.</p></div>
-          <div class="col-md-4 col-xs-12">
-              <p> </p></div>
-          <div class="col-md-4 col-xs-12">
-            <h1 class="coments">Contato</h1>
-            <p class="coments"><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbspalan.bmbispo@gmail.com</span><br/><br/><i class="fa fa-mobile fa-2x"></i>&nbsp&nbsp+55 (31) 9 9295-7388<br/><br/><i class="fa fa-phone fa-2x"></i>&nbsp&nbsp+55 (31) 3889-7072</p></div>
-          </div>
-          <br/><br/><br/>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
       </div>
     </div>
-    <!-- jQuery (necessario para os plugins Javascript Bootstrap) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <!-- Javascript do Bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
   </body>
-  </html>
+</html>
