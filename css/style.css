@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+.active{
+  background-color: #26a69a;
+  color: #eafaf9;
+  }
+
 nav ul a,
 nav .brand-logo {
   color: #444;

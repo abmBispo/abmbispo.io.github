@@ -4180,7 +4180,7 @@ nav ul li {
 }
 
 nav ul li.active {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: none;
 }
 
 nav ul a {
@@ -5215,7 +5215,7 @@ a.waves-effect .waves-ripple {
   right: 0;
   background-color: #fafafa;
   padding: 0;
-  max-height: 70%;
+  max-height: 90%;
   width: 55%;
   margin: auto;
   overflow-y: auto;
@@ -5243,7 +5243,7 @@ a.waves-effect .waves-ripple {
 
 .modal .modal-footer {
   border-radius: 0 0 2px 2px;
-  background-color: #fafafa;
+  background-color: #26a69a;
   padding: 4px 6px;
   height: 56px;
   width: 100%;
@@ -5270,7 +5270,7 @@ a.waves-effect .waves-ripple {
 
 .modal.modal-fixed-footer {
   padding: 0;
-  height: 70%;
+  height: 90%;
 }
 
 .modal.modal-fixed-footer .modal-content {
@@ -6702,7 +6702,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li.active {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: none; /*rgba(0, 0, 0, 0.05);*/
 }
 
 .side-nav a {
