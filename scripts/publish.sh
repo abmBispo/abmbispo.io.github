@@ -1,5 +1,5 @@
 #!/bin/sh
-# By Ariel Santos
+# By Alan Borges
 echo "Construindo página..."
 
 command -v npm >/dev/null 2>&1 || { echo "Requer npm porém não foi encontrada nenhuma instalação em seu PATH" >&2; exit 1; }
@@ -14,12 +14,6 @@ cat minifier.json
 echo
 
 cd ..
-echo "...Linting:"
-html-minifier --output-dir . -c scripts/minifier.json --input-dir source
-echo
-echo "...Arquivos foram minificados"
-cd css
-cat stylesheet.css > stylesheet.min.css
-cat bootstrap-theme.css >> stylesheet.min.css
-rm stylesheet.css bootstrap-theme.css
+echo "Minificando:"
+html-minifier --output-dir . --input-dir source -c scripts/minifier.json
 echo "Pronto :)"
