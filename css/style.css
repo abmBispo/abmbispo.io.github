@@ -10,6 +10,9 @@
   background-color: #26a69a;
   color: #FFF;
   }
+.section {
+  margin-top:-15px;
+}
 
 nav ul a,
 nav .brand-logo {
