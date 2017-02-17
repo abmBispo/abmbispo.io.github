@@ -20,13 +20,13 @@
             <div class="nav-wrapper container">
                 <a id="logo-container" href="#" class="brand-logo"><i class="fa fa-github" aria-hidden="true"></i>abmBispo</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="projetos.html">Projetos acadêmicos</a></li>
-                    <li><a href="formacao.html">Formação acadêmica</a></li>
+                    <li><a href="#resumo">Resumo</a></li>
+                    <li><a href="#formacao_academica">Formação acadêmica</a></li>
                     <li><a href="index_en.html"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;EN</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
-                    <li><a href="projetos.html">Projetos acadêmicos</a></li>
-                    <li><a href="formacao.html">Formação acadêmica</a></li>
+                    <li><a href="#resumo">Resumo</a></li>
+                    <li><a href="#formacao_academica">Formação acadêmica</a></li>
                     <li><a href="index_en.html"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;EN</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -35,7 +35,7 @@
     </div>
 
     <!-- Efeito paralaxe da primeira secção do site, o resumo -->
-    <div id="index-banner" class="parallax-container">
+    <div id="resumo" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
                 <br><br>
@@ -85,8 +85,8 @@
         </div>
     </div>
 
-    <!-- Efeito paralaxe da primeira secção do site, o resumo -->
-    <div id="index-banner" class="parallax-container">
+    <!-- Efeito paralaxe da segunda secção do site, a formação acadêmica -->
+    <div id="formacao_academica" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
                 <br><br>
@@ -258,7 +258,6 @@
         <!--Christo nihil praeponere-->
     </footer>
 
-
     <!--  Scripts-->
     <!-- Icones do font Awesome  -->
     <script src="https://use.fontawesome.com/a8edee434b.js"></script>
@@ -266,12 +265,24 @@
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
 
-</body>
 
-</html>
-"></script>
-<script src="js/init.js"></script>
+    <!-- localscroll -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
 
+                var target = this.hash;
+                var $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function() {
+                    window.location.hash = target;
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
