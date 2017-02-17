@@ -17,12 +17,15 @@ nav .brand-logo {
 }
 
 p {
-  font-size: 110%;
+  font-size: 120%;
   line-height: 2rem;
 }
 
 .bold {
   font-weight: bold;
+}
+.italic{
+  font-style: italic;
 }
 
 .button-collapse {
