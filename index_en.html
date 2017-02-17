@@ -11,95 +11,330 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-    <!-- Icones do font Awesome  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 
 <body>
-    <nav class="white" role="navigation">
-        <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo"><i class="fa fa-github" aria-hidden="true"></i>abmBispo</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="projetos_en.html">Academic projects</a></li>
-                <li><a href="formacao_en.html">Academic education</a></li>
-                <li><a href="index.html">PT</a></li>
-            </ul>
-
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="projetos_en.html">Academic projects</a></li>
-                <li><a href="formacao_en.html">Academic education</a></li>
-                <li><a href="index.html">PT</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
-
-    <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-                <h1 class="header center"><br>Me</h1>
-                <br><br>
+    <!-- Navbar do site -->
+    <div class="navbar-fixed">
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo"><i class="fa fa-github" aria-hidden="true"></i>abmBispo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#resumo">Resumo</a></li>
+                    <li><a href="#formacao_academica">Formação acadêmica</a></li>
+                    <li><a href="#experiencias">Experiências</a></li>
+                    <li><a href="index_en.html"><i class="fa fa-globe fa-spin" aria-hidden="true"></i>&nbsp;EN</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#resumo">Resumo</a></li>
+                    <li><a href="#formacao_academica">Formação acadêmica</a></li>
+                    <li><a href="#experiencias">Experiências</a></li>
+                    <li><a href="index_en.html"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;EN</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
-        </div>
-        <div class="parallax"><img src="fotos/wallpaper-processador-3.jpg"></div>
+        </nav>
     </div>
 
+    <div id="resumo" class="section scrollspy">
+        <!-- Efeito paralaxe da primeira secção do site, o resumo -->
+        <div class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br><br>
+                    <h1 class="header center"><br>Resumo</h1>
+                    <br><br>
+                </div>
+            </div>
+            <div class="parallax"><img src="fotos/wallpaper-processador-3.jpg"></div>
+        </div>
 
-    <div class="container">
-        <div class="section">
+        <!-- Container da primeira secção do site -->
+        <div class="container">
+            <div class="section">
 
-            <!--   Icon Section   -->
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="icon-block">
-                        <h2 class="center brown-text"><i class="fa fa-users" aria-hidden="true"></i></h2>
-                        <h5 class="center">Social</h5>
-                        <p class="light">Great with interpersonal relationships as much dedicated to teamwork, I have the experience of a year and three months in COLTEC-UFMG student body precisely because I believe that great projects are undertaken with great teams.
-                            Human communication, both for Applications's WEB and for the software's production, are just essential!</p>
+                <!-- Primeira linha -->
+                <div class="row">
+
+                    <!-- Foto -->
+                    <div class="col hide-on-med-and-down l4">
+                        <div class="card teal lighten-2 hoverable">
+                            <div class="card-content white-text">
+                                <center><span class="card-title"><p class="bold">Alan Borges</p></span></center>
+                                <div class="card-content">
+                                    <center><img class="circle responsive-img z-depth-3" src="fotos/perfil1.jpg"></center>
+                                    <center>
+                                        <p class="bold"> Christo nihil praeponere </p>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Texto do resumo -->
+                    <div class="col s12 m12 l8">
+                        <h4 class="center"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Oi, sou Alan!</h4>
+                        <p class="light"> Sendo católico apostólico romano, acredito que a defesa da fé em Deus e o esforço no trabalho são essenciais para um ótimo relacionamento interpessoal e alta produtividade em um ambiente de desenvolvimento WEB. Dessa forma, essas
+                            duas caracteristicas são as que eu mais busco implementar na minha vida, de forma honesta e dedicada. Me orgulho de ter sido membro do Grêmio Estudantil do Colégio Técnico da Universidade Federal de Minas Gerais, o que me auxiliou
+                            a ter hoje a compreensão do que é trabalhar em grupo. Acredito que este é meu grande forte (além do meu esforço), minha capacidade de trabalhar em grupo (depois veja minhas conquistas que verá que tenho razão
+                            <i class="fa fa-smile-o" aria-hidden="true"></i> ).</p>
+                    </div>
+
+                    <div class="col s12 m12 l12">
+                        <p class="light"> Acredito que a dedicação é o que constrói grandes pessoas e por isso estou sempre me atualizando com o que há de mais novo nas áreas de engenharia de controle, engenharia de sistema, programação e segurança de sistemas. Tenho comigo
+                            que a persistência firme num problema para a sua solução seja a minha grande qualidade, pois foi assim que aprendi a programar em diversas linguagens de computação que não compõem o núcleo do meu curso de informática. Depois
+                            cheque as minhas competências para ver o que eu tenho aprendido! E se quiser conferir, veja como tenho programado no meu <a href="https://github.com/abmBispo">repositório online do Github <i class="fa fa-github" aria-hidden="true"></i></a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="formacao_academica" class="section scrollspy">
+        <!-- Efeito paralaxe da segunda secção do site, a formação acadêmica -->
+        <div class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br><br>
+                    <h1 class="header center"><br>Formação acadêmica</h1>
+                    <br><br>
+                </div>
+            </div>
+            <div class="parallax"><img src="fotos/wallpaper_coltec_wide.png"></div>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <h2 class="center"><i class="fa fa-university" aria-hidden="true"></i></h2>
+                        <h5 class="center">COLTEC e a Universidade</h5>
+                        <p class="light"> Estudei no Colégio Técnico da UFMG, <a href="http://www.coltec.ufmg.br/coltec/"> o COLTEC <i class="fa fa-university" aria-hidden="true"></i></a>, situado em meio a um ambiente de forte influência universitária. Dessa forma, me
+                            formei como homem e cristão que hoje sou em parte pelo ambiente que frequentei durante meu ensino integrado médio-técnico. O ambiente universitário lida com uma diversidade muito grande de pessoas, opiniões e vivências. Então
+                            estive exposto a toda sorte de ideias, tecnologias, e informações que me fizeram hoje conseguir ter uma boa visão de diversas áreas do conhecimento: dentre essas temos, por exemplo, disciplinas que extrapolam meu campo de ensino
+                            no Colégio Técnico, como Engenharia de Sistemas e Robótica. Toda a curiosidade e a vontade de aprender devo aos meus professores do Setor de Informática, grandes profissionais.</p>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <h2 class="center"><i class="fa fa-code" aria-hidden="true"></i></h2>
+                        <h5 class="center">Informática</h5>
+                        <p class="light"> O lado mais técnico do meu ensino foi voltado para a produção de soluções em softwares rápidos, eficientes, amigáveis e robustos para o usuário final não ter problema ao interagir com o que quer que seja. Compreendo hoje uma grande
+                            gama de linguagens, de várias áreas. De um simples sistema monolítico, passando por jogos de computador e sistemas web inteiros, linguagens como C, JAVA, RUBY, PHP, HTML e CSS são as minhas especialidades. No entanto também
+                            lido bem com linguagens como SQL, JavaScript e C++. Julgo que o mais importante para minha formação enquanto programador foi o ótimo curso que tivemos de AEDS, Algoritmos e Estruturas de Dados, que possibilitou mais tarde a
+                            fácil apreensão de diversas linguagens.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <h2 class="center">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-bug fa-stack-1x"></i>
+                            <i class="fa fa-ban fa-stack-2x red-text"></i>
+                          </span> ? <i class="fa fa-thumbs-up" aria-hidden="true"></i> : <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                      </h2>
+                        <h5 class="center">Desenvolvimento backend</h5>
+                        <p class="light"> Sempre estive focado em fazer softwares com a melhor qualidade possível nos âmbitos de velocidade, segurança e integridade de dados. Dessa forma, como minha grande tendencia é no desenvolvimento backend, eu foquei sempre em me
+                            especializar nas áreas de segurança de ataques em servidores,
+                            <span class="italic">Hijacking de sessão</span> e roubo de informação de usuários. Além disso, a velocidade e eficiência, para mim, formam com segurança o trio mestre que qualquer desenvolvedor web precisa dominar (e eu sei
+                            muito bem!). Cheque a frente meus repositórios online:</p>
                     </div>
                 </div>
 
-                <div class="col s12 m6">
-                    <div class="icon-block">
-                        <h2 class="center brown-text"><i class="fa fa-code" aria-hidden="true"></i></h2>
-                        <h5 class="center">Codes, computers and more...</h5>
-                        <p class="light">Innate ability to computer networks construction and organization, as also solutions for safe and efficient sharing of files. Ample knowledge of technical support to computers and office's equipment. Great versatility regarding
-                            the various programming languages such as C, Java and liguagens to design web applications.</p>
+                <!-- Lista de repositórios -->
+                <div class="row">
+
+                    <!-- Primeiro card -->
+                    <div class="col s12 m4 l4">
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="fotos/ruby.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Ruby<i class="fa fa-ellipsis-v fa-lg right" aria-hidden="true"></i></span>
+                                <p><a href="https://github.com/abmBispo/agenda-sinatra-padrino">Projeto Sinatra/Padrino</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Ruby<i class="fa fa-window-close fa-lg right" aria-hidden="true"></i></span>
+                                <p> Projeto de API de uma agenda de contatos feita usando a linguagem ruby com o framework Padrino. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Segundo card -->
+                    <div class="col s12 m4 l4">
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="fotos/php-js.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4"><a href="https://github.com/abmBispo/desafio-COLTEC-2016"> PHP + JS </a><i class="fa fa-ellipsis-v fa-lg right" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"> Desafio COLTEC <i class="fa fa-window-close fa-lg right" aria-hidden="true"></i></span>
+                                <p><a href="https://github.com/abmBispo/desafio-COLTEC-2016"> Desafio COLTEC </a></p>
+                                <p> Desafio proposto pelo Setor de Informática para a disputa entre os alunos das vagas para estágio no Setor. Veja o que eu fiz e como eu passei na seleção. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terceiro card -->
+                    <div class="col s12 m4 l4">
+                        <div class="card hoverable">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="fotos/arduino.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4"> Robótica <i class="fa fa-ellipsis-v fa-lg right" aria-hidden="true"></i></span>
+                                <p><a href="https://www.dropbox.com/sh/m1m0755r4d6t685/AAB376sNNl-n8yv7ppENF2XXa?dl=0"> Andron </a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"> Robótica <i class="fa fa-window-close fa-lg right" aria-hidden="true"></i></span>
+                                <p> Projeto que eu e minha equipe desenvolvemos para a 3ª Edição da Competição de robôs autômatos da UFMG. Nós chegamos em 3º lugar!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experiencias" class="section scrollspy">
+        <!-- Efeito paralaxe da terceira secção do site, as experiências profissionais -->
+        <div class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br><br>
+                    <h1 class="header center"><br>Experiências</h1>
+                    <br><br>
+                </div>
+            </div>
+            <div class="parallax"><img src="fotos/belzonte.jpg"></div>
+        </div>
+
+        <!-- Container da primeira secção do site -->
+        <div class="container">
+            <div class="section">
+                <!-- Primeira linha -->
+                <div class="row">
+                    <div class="col s12 m6 l5">
+                        <div class="row">
+                            <div class="card large">
+                                <div class="card-image">
+                                    <img src="fotos/php.png">
+                                    <span class="card-title"> Gestor Acadêmico - COLTEC </span>
+                                </div>
+                                <div class="card-content">
+                                    <p> O sistema de gestão acadêmica foi um projeto desenvolvido por uma equipe de quatro membros, alunos, em conjunto com o Setor de Informática. O projeto visava construir um site de gerência acadêmica para professores,
+                                        alunos e gestores.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="arquivos/relatorio_final_coltec.pdf" class="waves-effect waves-light btn" download> Relatório </a>
+                                    <a href="#" class="waves-effect waves-light btn disabled">Ver sistema</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="card large">
+                                <div class="card-image">
+                                    <img src="fotos/php-js.png">
+                                    <span class="card-title"> Site NPDI - DCC-UFMG</span>
+                                </div>
+                                <div class="card-content">
+                                    <p> Eu, junto a uma equipe de outros dois, desenvolveremos um novo site para o NPDI-DCC. Estágio em andamento. </p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#" class="waves-effect waves-light btn disabled">Ver relatório</a>
+                                    <a href="#" class="waves-effect waves-light btn disabled">Ver sistema</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6 l7">
+                        <div class="row">
+                            <div class="col s12 m12 l12">
+                                <center>
+                                    <h4> Minha experiência me moldou </h4></center>
+                                <p> Durante meu anos de estudos sempre me esforcei ao máximo para conseguir reter toda a informação que recebia. No entanto, ainda assim, isso nunca foi o suficiente para que meus trabalhos se equiparassem com os de outros.
+                                    Na verdade, foi só durante meus primeiros empregos que percebi o que significa <strong>dedicação</strong>. Assim, considero que minha dedicação foi o que me diferenciou mais a frente. <strong>Uma frase de ouro: um homem não vê o "como" se ele tem um "por que"</strong>.</p>
+                                <p>Dessa forma me tornei um grande programador para desenvolvimento web, focado em backend, em linguagens como PHP (com seu framework Slim), ou mesmo minha grande especialidade: ruby (com seus belíssimos frameworks Sinatra
+                                    e Rails). Mas para que eu entendesse bem estas duas linguagens, foi necessário que eu estudasse uma outra dezena de tecnologias de programação. </p>
+                                <p>Mas não basta apenas saber fazer, é vital para um bom programador <strong>saber fazer bem feito</strong>. Assim, minha dedicação ao estudar os diversos <span class="italic">patterns</span> e <span class="italic">anti-patterns</span>                                    que existem é tremenda, para entender como os grande mestres da programação estão fazendo ultimamente. Eu nunca paro de procurar por respostas: veja por exemplo a <a href="https://github.com/jwt/ruby-jwt/issues/188"><span class="italic">issue</span> que eu criei</a>                                    através de minha conta do Github no repositório oficial da gem ruby-jwt.</p>
+                                <p>Pois bem, após estes valorosos trabalhos, tanto no Colégio Técnico, como no Departamento de Ciência da Computação da UFMG, posso então dizer que eu domino as seguintes tecnologias de programação:</p>
+
+                                <div class="chip">
+                                    Ruby language
+                                </div>
+
+                                <div class="chip">
+                                    Ruby on Rails framework
+                                </div>
+
+                                <div class="chip">
+                                    Sinatra framework
+                                </div>
+
+                                <div class="chip">
+                                    Active Record ORM
+                                </div>
+
+                                <div class="chip">
+                                    PHP language
+                                </div>
+
+                                <div class="chip">
+                                    PHPSlim framework
+                                </div>
+
+                                <div class="chip">
+                                    SQL language
+                                </div>
+
+                                <div class="chip">
+                                    MySQL Server
+                                </div>
+
+                                <div class="chip">
+                                    Doctrine ORM
+                                </div>
+
+                                <div class="chip">
+                                    XML
+                                </div>
+
+                                <div class="chip">
+                                    JSON
+                                </div>
+
+                                <div class="chip">
+                                    YAML
+                                </div>
+
+                                <div class="chip">
+                                    C language
+                                </div>
+
+                                <div class="chip">
+                                    C++ language
+                                </div>
+
+                                <div class="chip">
+                                    Java language
+                                </div>
+
+                                <div class="chip">
+                                    JavaScript language
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-            </div>
-        </div>
-        <div class="parallax"><img src="fotos/wallpaper-arduino-5.jpg" alt="Unsplashed background img 2"></div>
-    </div>
-
-    <div class="container">
-        <div class="section">
-
-            <div class="row">
-                <div class="col s12 center">
-                    <h3 class="mdi-content-send brown-text"><i class="fa fa-cogs" aria-hidden="true"></i></h3>
-                    <h4>Robotics</h4>
-                    <p class="left-align light">I have a broad interest in the areas of robotics, automation and control systems. I'm currently enrolled in the course provided by EDx/SNUx Introduction to Robotics and I've already undertook two projects involving robotics and automation
-                        (for more information see: Academic Projects tab). One was the line-follower robot and the other a solar tracker. To view the whole projects, download the final compiled at the end of the aforesaid section.</p>
-                    <p class="light left-align">
-                        A passion for robotics was born in 2015, when I've entered the third quarter of the course Informática in COLTEC-UFMG in OCS discipline - LAB, which was introduced in the embedded computing (Arduino, mostly, but also BlackBone, Raspberry Pi and some Ada
-                        Fruits devices).</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
 
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
@@ -113,24 +348,29 @@
         <div class="container">
 
             <div class="row">
-                <div class="col s12 m5">
-                    <h5 class="white-text">Policies</h5>
-                    <p class="grey-text text-lighten-4">This website has as only porpuse the broadcasting of my own personal and professional abilities. All the content provided in this website it is reasearch results or simple commentaries about past technical experiencies. This site is
-                        not profitable or capitalized. I ask sorry for whom has been offended with any content or comment.</p>
-                </div>
-                <div class="col s12 m3 offset-m4">
-                    <h5 class="white-text">Contact</h5>
-                    <ul>
-                        <li class="white-text"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+55 (31) 9 9295-7388</li>
-                        <br>
-                        <li class="white-text"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;+55 (31) 3889-7072</li>
-                        <br>
-                        <li class="white-text"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alan.bmbispo@gmail.com</li>
-                    </ul>
+                <div class="col s12 m4">
+                    <h5 class="white-text">Contato</h5>
+
+                    <!-- Chip para telefone fixo -->
+                    <div class="chip">
+                        <i class="fa fa-phone fa-lg" aria-hidden="true"></i> +55 (31) 3889-7072
+                    </div>
+
+                    <!-- Chip para whatsapp + celular -->
+                    <div class="chip">
+                        <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> +55 (31) 9 9295-7388
+                    </div>
+
+                    <!-- Chip para email -->
+                    <div class="chip">
+                        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i> alan.bmbispo@gmail.com
+                    </div>
+
                 </div>
 
             </div>
         </div>
+
         <div class="footer-copyright">
             <div class="container">
                 Made by &nbsp;<i class="fa fa-github" aria-hidden="true"></i>abmBispo&nbsp; with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
@@ -140,12 +380,31 @@
         <!--Christo nihil praeponere-->
     </footer>
 
-
     <!--  Scripts-->
+    <!-- Icones do font Awesome  -->
+    <script src="https://use.fontawesome.com/a8edee434b.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
 
+
+    <!-- localscroll -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
+
+                var target = this.hash;
+                var $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function() {
+                    window.location.hash = target;
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

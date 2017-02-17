@@ -16,6 +16,10 @@ nav .brand-logo {
   color: #444;
 }
 
+.chip {
+  margin-top: 5px;
+}
+
 p {
   font-size: 120%;
   line-height: 2rem;
