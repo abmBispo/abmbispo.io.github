@@ -6,17 +6,38 @@
  * Made By MaterializeCSS.com
  */
 
+li:hover{
+  background-color: #5C5146;
+}
+
 .active{
-  background-color: #26a69a;
-  color: #FFF;
+  background-color: #EEF1F2;
+  color: #000;
   }
+
 .section {
   margin-top:-15px;
 }
 
+a.button-collapse {
+  color: #FFF
+}
+
+.color-1 {
+  color: #252224
+}
+
+nav {
+  background-color: #252224
+}
+
+footer.page-footer {
+  background-color: #252224
+}
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #FFF;
 }
 
 .chip {
@@ -24,7 +45,7 @@ nav .brand-logo {
 }
 
 p {
-  font-size: 120%;
+  font-size: 150%;
   line-height: 2rem;
 }
 
