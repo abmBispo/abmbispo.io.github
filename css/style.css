@@ -6,14 +6,37 @@
  * Made By MaterializeCSS.com
  */
 
-li:hover{
+.collapsible-body p.light {
+  padding-top: 0px;
+}
+
+.collapsible-header a.btn {
   background-color: #5C5146;
 }
 
-.active{
+.collapsible-header a.btn:hover {
   background-color: #EEF1F2;
   color: #000;
-  }
+}
+
+.collapsible-header span.badge {
+  position: relative;
+  margin-left: auto;
+  float: right;
+}
+
+i.material-icons {
+  margin-right: 0px;
+}
+
+nav li:hover {
+  background-color: #5C5146;
+}
+
+nav li .active {
+  background-color: #EEF1F2;
+  color: #000;
+}
 
 .section {
   margin-top:-15px;
@@ -47,6 +70,7 @@ nav .brand-logo {
 p {
   font-size: 150%;
   line-height: 2rem;
+  text-align: justify;
 }
 
 .bold {
